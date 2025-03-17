@@ -1,31 +1,17 @@
 # Run locally
 
-Hello, to run the React design, please type first in the frontend directory:
+To run the React design, please type first in the rakuten directory:
 ```bash
 $ npm install
 $ npm start
 ```
 
-And the following one in the backend/app/ directory:
-```bash
-fastapi dev api.py
-```
+# Remarks
+In the src/data.json file you will find a list of rakuten items. 
+The first one was the given reference, and  the others are items that I created. The href and image link were not modified as I was not sure if you have chosen these links for any particular reason.
 
-Then go to you favorite browser and enter the following url:
-* `http://localhost:5173/`
-if you want to log in or sign in.
-* `http://localhost:5173/users`
-if you want to see the users list.
+The last ones of the data.json file have errors and so, are not displayed.
 
+# Possible Issue
 
-# Run with docker
-To run with the docker:
-```bash
-docker compose up
-```
-Then go to you favorite browser and enter the following url:
-* `http://localhost/`
-if you want to log in or sign in.
-* `http://localhost/users`
-if you want to see the users list.
-
+If you can't load the images or click on the links, please remove "Protection renforcée contre le pistage" de la "Protection pour localhost" on your browser. It should solve the issue.
