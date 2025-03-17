@@ -8,7 +8,7 @@ $ npm start
 
 # Remarks
 In the src/data.json file you will find a list of rakuten items. 
-The first one was the given reference, and  the others are items that I created. The href and image link were not modified as I was not sure if you have chosen these links for any particular reason.
+The first one was the given reference, and  the others are items that I created. The href and image link were not modified as I was not sure if you have chosen these links for a particular reason.
 
 The last ones of the data.json file have errors and so, are not displayed.
 
